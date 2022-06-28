@@ -8,7 +8,7 @@ jobs:
       - uses: dart-lang/setup-dart@v1.3
         uses: actions/checkout@v2
           with:
-            repository: dart-test-2022/boolen-data-type
+            repository: dart-test-2022/control_flow_statements_test
             path: test
       - run: dart pub get
       - run: dart test
